@@ -28,8 +28,8 @@ LeetMatrix is a simple web app that allows users to visualize their LeetCode pro
 
 <b> How to Run Locally: </b>
 1. Clone this repo:
- <pre> 1.1. git clone https://github.com/Unnati2909/Leetmatrix_JS_Practice.git </pre>
- <pre> 1.2. cd Leetmatrix_JS_Practice </pre>
+ <pre> git clone https://github.com/Unnati2909/Leetmatrix_JS_Practice.git </pre>
+ <pre> cd Leetmatrix_JS_Practice </pre>
 
 <b> Note : </b>
 1. Only public LeetCode profiles will return data.
