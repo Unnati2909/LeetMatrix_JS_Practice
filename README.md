@@ -28,8 +28,8 @@ Technologies Used :
 
 How to Run Locally: 
 1. Clone this repo:
-git clone https://github.com/Unnati2909/Leetmatrix_JS_Practice.git
-cd Leetmatrix_JS_Practice
+1.1. git clone https://github.com/Unnati2909/Leetmatrix_JS_Practice.git
+1.2. cd Leetmatrix_JS_Practice
 
 Note :
 1. Only public LeetCode profiles will return data.
