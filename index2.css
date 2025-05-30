@@ -1,0 +1,152 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: #04172a;
+  color: #070707db;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 2000px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 12px rgba(232, 221, 221, 0.526);
+}
+
+h1 {
+  text-align: center;
+  color: #091870;
+  margin-bottom: 25px;
+}
+
+/* User Input Section */
+.user-container {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.user-container p {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.user-input-container {
+  display: flex;
+  gap: 10px;
+}
+
+#user-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 1px solid #e8dcdc;
+  border-radius: 6px;
+}
+
+#search-btn {
+  padding: 10px 16px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+#search-btn:hover {
+  background-color: #0e2095;
+}
+
+/* Stats Container */
+.stats-container {
+  margin-top: 20px;
+}
+
+/* Progress Stats */
+.progress-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.progress-level {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Common Circle Style */
+.progress-circle {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: 3px solid;
+  background: conic-gradient(gray 0%, #eee 0%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: pre-line; /* allows newlines */
+  text-align: center;
+}
+
+/* Easy - Green */
+.easy-level .progress-circle {
+  background-color: #d4edda;
+  color: #194d25;
+  background: conic-gradient(#1e7733c0 var(--progress-degree, 0%), #d4edda 0%);
+  border-color: #1e7733c0;
+}
+
+/* Medium - Yellow */
+.medium-level .progress-circle {
+  background-color: #fff3cd;
+  color: #896a0c;
+  background: conic-gradient(#a67f0cda var(--progress-degree, 0%), #fff3cd 0%);
+  border-color: #a67f0cda;
+}
+
+/* Hard - Red */
+.hard-level .progress-circle {
+  background-color: #f8d7da;
+  color: #721c24;
+  background: conic-gradient(#a71b29 var(--progress-degree, 0%), #f8d7da 0%);
+  border-color: #a71b29;
+}
+
+/* Labels */
+.easy-label,
+.medium-label,
+.hard-label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #030b3d;
+}
+
+/* Cards Section */
+.cards-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
