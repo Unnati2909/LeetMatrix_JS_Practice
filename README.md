@@ -1,4 +1,4 @@
-<img width="1440" alt="image" src="https://github.com/user-attachments/assets/cfbd0018-92e7-4ef9-b465-589635860498" /># LeetMatrix_JS_Practice
+LeetMatrix_JS_Practice
 
 LeetMatrix is a simple web app that allows users to visualize their LeetCode problem-solving stats. By entering a valid LeetCode username, users can see a breakdown of how many problems they've solved across different difficulty levels—Easy, Medium, and Hard—along with a neat circular progress indicator.
 
@@ -6,9 +6,9 @@ LeetMatrix is a simple web app that allows users to visualize their LeetCode pro
 Features : 
 1. Search by LeetCode *username*
 2. Visual progress indicators for each difficulty:
-2.1. Circular progress bar with percentage
-2.2. Solved / Total stats displayed inside the circle
-2.3. Difficulty label below each chart
+  2.1. Circular progress bar with percentage
+  2.2. Solved / Total stats displayed inside the circle
+  2.3. Difficulty label below each chart
 3. Responsive and clean UI with custom CSS styling
 4. Uses LeetCode Stats API for data fetching
 
@@ -28,8 +28,8 @@ Technologies Used :
 
 How to Run Locally: 
 1. Clone this repo:
-1.1. git clone https://github.com/Unnati2909/Leetmatrix_JS_Practice.git
-1.2. cd Leetmatrix_JS_Practice
+  1.1. git clone https://github.com/Unnati2909/Leetmatrix_JS_Practice.git
+  1.2. cd Leetmatrix_JS_Practice
 
 Note :
 1. Only public LeetCode profiles will return data.
