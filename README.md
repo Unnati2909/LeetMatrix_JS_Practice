@@ -6,9 +6,9 @@ LeetMatrix is a simple web app that allows users to visualize their LeetCode pro
 Features : 
 1. Search by LeetCode *username*
 2. Visual progress indicators for each difficulty:
-  2.1. Circular progress bar with percentage
+ <pre> 2.1. Circular progress bar with percentage
   2.2. Solved / Total stats displayed inside the circle
-  2.3. Difficulty label below each chart
+  2.3. Difficulty label below each chart </pre>
 3. Responsive and clean UI with custom CSS styling
 4. Uses LeetCode Stats API for data fetching
 
